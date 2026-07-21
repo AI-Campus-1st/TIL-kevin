@@ -1,0 +1,15 @@
+260721
+OT
+병가 공결은 진료확인서 뿐만 아니라 처방전으로도 갈음 가능
+
+데이터 분석 분야의 3대 직무? 데이터 엔지니어, AI 엔지니어, 데이터 시각화(프론트엔드)
+슬랙 허들(디스코드 대용) 통해서 모여서 작업
+공모전 - DACON, 링커리어, 콘테스트코리아 등
+
+git clone <Git URL> #git repository 다운로드
+git init #git 저장소로 설정
+git remote add origin <Git URL> #git repository 동기화 링크 설정
+git add <files> #repo manual upload(개별 파일만 권장)
+git commit -m <message>
+git push origin main(master) #repo sync upload
+git status
