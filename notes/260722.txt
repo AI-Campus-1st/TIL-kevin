@@ -1,0 +1,18 @@
+git pull origin <master,main> #cd <repository> -> 해당 repo에서 변경사항 다운로드
+개발 환경 설정 - VS Code, anaconda3(Path에 \condabin 추가)
+anaconda3
+	Python venv(가상 환경) 구축 지원
+	conda create -n <name> python=3.xx
+	conda env list #venv 생성 확인
+	conda activate <name>
+개발 환경 구축 후 작업 시 반드시 작업 공간(workspace) 설정
+!!! 절대 파일 단위로 open하지 말 것 !!!
+	프로젝트별 폴더 구분
+	open 시에도 폴더 단위로 open, IDE 내 작업 공간 설정 용이 (VS Code -> open folder)
+	
+VS Code
+	.ipynb 확장자 - python 기반 노트북, 코드와 주석, 문서 서식이 혼합된 구조
+	Ctrl + Enter로 코드 부분 실행
+	input() - 유저에 의한 입력값 받기
+
+이후 내용은 workspace 내 노트북을 참고
