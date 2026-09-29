@@ -1,0 +1,21 @@
+## Mecab 설치
+
+1. JDK 17 설치
+https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+
+2. JAVA_HOME 환경변수 설정 (버전까지만 bin 제외)
+JAVA_HOME - C:\Program Files\Java\jdk-{version}
+path - %JAVA_HOME%\bin
+
+3. jpype1 설치 (파이썬 버전 같아야함)
+pip install jpype-파일명.whl
+
+4. mecab 압축 풀기
+
+5. pip install mecab-python3
+from konlpy.tag import Mecab
+
+자바 버전 충돌 시 커널 죽는 현상
+https://github.com/jpype-project/jpype/issues/1242
+
+The real issue is looking like a conflict between 2 different versions of Java being used at the same time...one on the PATH, and a different one on JAVA_HOME.
