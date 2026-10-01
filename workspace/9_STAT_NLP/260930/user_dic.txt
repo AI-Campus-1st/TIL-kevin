@@ -1,0 +1,13 @@
+제미나이	NNP
+아르곤	NNP
+오픈AI	NNP
+앤트로픽	NNP
+아스트라	NNP
+오퍼스	NNP
+로이터통신	NNP
+도널드 트럼프	NNP
+사이버보안	NNG
+플래그십	NNG
+벤치마크	NNG
+최상위	NNG
+현지시간	NNG
