@@ -1,0 +1,16 @@
+{
+  "name": "lunch-app",
+  "version": "1.0.0",
+  "description": "오늘 뭐 먹지? 점심 메뉴 추천 웹 서비스",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "license": "MIT"
+}
